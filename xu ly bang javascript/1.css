@@ -1,0 +1,48 @@
+*{margin:0; padding:0;}
+.acc {
+    width:700px;
+    margin:auto; 
+    font-family: segoe ui light; 
+    font-size: 13px; 
+    color:gray;
+}
+.acc  .noidung{}
+.acc  .noidung .tieude{
+    border:1px solid gray;
+    padding:10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background: lightblue;
+    color: white;
+    cursor: pointer;
+}
+.acc  .noidung .tieude i{}
+
+.acc  .noidung .text {
+    opacity: 0; visibility: hidden;
+    height: 0px; 
+    transition: 0.4s; 
+    background: #e7e7e7;
+    font-size: 14px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.acc  .noidung.active .text {
+    opacity: 1; visibility: visible;   height: 150px;      
+}
+.acc  .noidung.active .tieude {
+background-color:rgb(13, 78, 153);}
+
+
+
+.acc  .noidung .text .ndtext{
+    padding:15px;
+    
+    
+   
+}
+.acc  .noidung:last-child .text  .ndtext{
+     
+    border-bottom: 1px solid gray;
+  
+}
